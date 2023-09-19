@@ -4,7 +4,7 @@ const navbarOffsetTop = navbar.offsetTop;
 const sections = document.querySelectorAll("section");
 const navbarLinks = document.querySelectorAll(".navbar-link");
 const progress = document.querySelector(".progress-bars-wrapper");
-const progressBarPercents = [97, 90, 72, 80, 48];
+const progressBarPercents = [97, 90, 72, 80, 70];
 
 window.addEventListener("scroll", () => {
   mainFn();
@@ -45,9 +45,9 @@ window.addEventListener("resize", () => {
 /* Typing and Deleting Effect */
 // List of sentences
 var _CONTENT = [ 
-	"SOFTWARE ENGINEER", 
+	"JAVA FULL STACK DEVELOPER", 
 	"FRONT-END DEVELOPER", 
-	"BUSINESS APP DEVELOPER"
+	"BACK-END DEVELOPER"
 ];
 
 var _PART = 0; // Current sentence being processed
